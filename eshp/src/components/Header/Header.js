@@ -16,17 +16,17 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="header__nav">
-        <div className="nav_-items">
+        <div className="nav__items">
           <span className="nav__itemLineone">Hello Guest</span>
           <span className="nav__itemLinetwo">Sign in</span>
         </div>
-        <div className="nav_-items">
+        <div className="nav__items">
           <span className="nav__itemLineone">Your</span>
           <span className="nav__itemLinetwo">Shop</span>
         </div>
-        <div className="nav_-items">
+        <div className="nav__items">
           <ShoppingBasketIcon />
-          <span className="nav__itemLinetwo nav__basketCount">0</span>
+          <span className="nav__itemBasket nav__basketCount">0</span>
         </div>
       </div>
     </div>
