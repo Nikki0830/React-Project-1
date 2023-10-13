@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Product from "../Product/Product";
 
 export default function Home() {
   return (
@@ -11,6 +12,18 @@ export default function Home() {
             alt="home__page__banner"
             className="home__image"
           />
+          <div className="home__row">
+            <Product />
+            <Product />
+          </div>
+          <div className="home__row">
+            <Product />
+            <Product />
+            <Product />
+          </div>
+          <div className="home__row">
+            <Product />
+          </div>
         </div>
       </div>
     </div>
